@@ -18,9 +18,9 @@ class NewsController
 	public function actionView($id)
 	{
 		if ($id){
-			$newsItem = News::getNewsItemById($id);
-			print_r($newsItem);
+			$newsList = News::getNewsItemById($id);
 			echo "<br>actionView";
+			echo "<br>" . $newsList[$id]['name'];
 		}
 	
 	}

@@ -4,4 +4,3 @@ return  array(
 	'news' => 'news/index',       //actionIndex in NewsController
 	'products' => 'product/list/glist'  //actionList in ProductControllrer
 	); 
- ?>
